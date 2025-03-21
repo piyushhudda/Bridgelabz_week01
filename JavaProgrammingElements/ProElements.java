@@ -1,3 +1,185 @@
+1. public class Age{
+    public static void main(String[] args){
+        int birth = 2000, year = 2024;
+        int age = year - birth ;
+        System.out.println(&quot;Harry&39;s age in 2024 is &quot;+age);
+    }
+}
+
+2. public class Marks {
+    public static void main(String[] args){
+        int maths = 94, physics = 95, chemistry = 96;
+        int total = maths+physics+chemistry;
+        System.out.println(&quot;Sams average mark in PCM is :&quot; + total/3);
+    }
+}
+
+3. public class Miles{
+    public static void main(String[] args){
+        double km = 10.8;
+        System.out.println(&quot;The distance 10.8 km in miles is :&quot; + km*0.6);
+
+    }
+}
+
+4. public class ProfitLoss{
+    public static void main(String[] args){
+        int cp = 129, sp = 191;
+        int profit = sp - cp;
+        double pp = ((profit/cp)*100) ;
+        System.out.println(&quot;The Cost Price is INR :&quot; + cp + &quot;and Selling Price is INR :&quot; + sp);
+        System.out.println(&quot;The Profit is INR :&quot; + profit + &quot;and the Profit Percentage is :&quot; + pp);
+
+    }
+}
+
+5. public class Pens{
+    public static void main(String[] args){
+        int students = 3;
+        int pens = 14;
+        int pps = 14/3;
+        int rem = 14%3;
+        System.out.println(&quot;The Pen Per Student is : &quot; + pps + &quot; and the remaining pen not
+        distributed is : &quot; + rem);
+
+    }
+}
+
+6. public class University{
+    public static void main(String[] args){
+        int fee = 125000;
+        int discountpercentage = 10 ;
+        int discountamount = fee/discountpercentage ;
+        int discount = fee - discountamount;
+        System.out.println(&quot;The discount amount is INR &quot;+ discountamount + &quot;and final discounted
+        fee is INR&quot; + discount );
+    }
+}
+
+7. public class Earth{
+    public static void main(String[] args){
+        int rad = 6378;
+        double vol = (4/3) * 3.14 * rad * rad * rad ;
+        double mil = vol * 0.6 ;
+
+        System.out.println(&quot;The volume of earth in cubic kilometers is&quot; + vol + &quot;and cubic miles is&quot; +
+                mil );
+    }
+}
+
+8. import java.util.Scanner;
+public class Kilometer{
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        double dist = s.nextInt();
+        s.close();
+        System.out.println(dist*0.621371);
+    }
+
+}
+
+9. import java.util.Scanner ;
+public class University02{
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        int fee = s.nextInt();
+        int discountpercentage = s.nextInt() ;
+        int discountamount = fee/discountpercentage ;
+        int discount = fee - discountamount;
+        System.out.println(&quot;The discount amount is INR &quot;+ discountamount + &quot;and final discounted
+        fee is INR&quot; + discount );
+    }
+}
+
+10. import java.util.Scanner;
+public class Height{
+
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        int height = s.nextInt();
+        double inch = height * 2.54;
+        double foot = inch * 12;
+        System.out.println(&quot;Your Height in cm is &quot; + height +&quot; while in feet is &quot; + foot + &quot; and inches
+        is &quot; + inch);
+    }
+}
+
+11. import java.util.Scanner;
+public class Calculator{
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        float num1 = s.nextFloat();
+        float num2 = s.nextFloat();
+        float add = num1+num2;
+        float sub = num1-num2;
+        float mul = num1*num2;
+        float div = num1/num2;
+        System.out.println(add);
+        System.out.println(sub);
+        System.out.println(mul);
+        System.out.println(div);
+    }
+}
+
+12. import java.util.Scanner;
+public class TriangleArea{
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+
+        int base = s.nextInt();
+        int height = s.nextInt();
+        double area = 0.5 * base * height;
+        double inc = area * 0.155;
+        System.out.println(&quot;Area in cm sq &quot; + area + &quot; while in inche sq &quot; + inc );
+    }
+}
+
+13. import java.util.Scanner;
+public class SquareP{
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        int side = s.nextInt();
+        int perimeter = 4 * side;
+        System.out.println(&quot;The length of the side is&quot; + side + &quot; whose perimeter is &quot; + perimeter);
+    }
+
+}
+
+14. import java.util.Scanner;
+public class Area{
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        int base = s.nextInt();
+        int height = s.nextInt();
+        int area = (base*height)/2;
+        System.out.println(area);
+    }
+}
+
+15. import java.util.Scanner;
+
+public class Price{
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        int price = s.nextInt();
+        int qty = s.nextInt();
+        int total = price*qty;
+        System.out.println(total);
+    }
+}
+
+16. import java.util.Scanner;
+public class Handshake{
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        int student = s.nextInt();
+        int handshakes = (n*(n-1))/2;
+        System.out.println(handshakes);
+    }
+}
+
+// LEVEL - 2
+
 1. import java.util.Scanner;
 public class QuotientRemainder {
     public static void main(String[] args) {
@@ -158,3 +340,4 @@ public class KgToPounds {
         scanner.close();
     }
 }
+
